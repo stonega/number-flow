@@ -1,19 +1,10 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "lib": ["ESNext", "DOM"],
-    "moduleResolution": "bundler",
-    "strict": true,
-    "esModuleInterop": true,
+    "outDir": "dist",
     "jsx": "react-native",
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "declaration": true,
-    "declarationDir": "./dist"
+    "lib": ["ESNext", "DOM"], // DOM lib is needed for number-flow core
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist", "test"]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
