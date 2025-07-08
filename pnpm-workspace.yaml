@@ -2,6 +2,7 @@ packages:
   - 'packages/*'
   - 'packages/number-flow/test/apps/*'
   - 'packages/react/test/apps/*'
+  - 'packages/react-native/test/apps/*'
+  - 'packages/react-native/test/apps/expo-example' # Added Expo example app
   - 'packages/vue/test/apps/*'
-  - 'packages/react-native/test/apps/*' # Assuming a similar test app structure
   - 'site'
